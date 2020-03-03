@@ -35,6 +35,10 @@ app.get('/profile', (req, res) => {
     res.render('profile', { user: users[0] });
 });
 
+app.post('/transfer', (req, res) => {
+
+});
+
 app.get('/transfer', (req, res) => {
     res.render('profile', { user: users[0] });
 });
