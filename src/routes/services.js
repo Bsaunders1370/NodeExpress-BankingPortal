@@ -24,3 +24,5 @@ router.post('/transfer', (req, res) => {
         writeJSON();
         res.render('payment', {message: 'Payment Successful', account: accounts.credit});
     });
+
+    module.exports = router;
