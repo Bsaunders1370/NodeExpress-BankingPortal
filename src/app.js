@@ -24,5 +24,6 @@ app.get('/profile', (req, res) => {
 
 const accountRoutes = require('./routes/accounts.js');  
 
+const servicesRoutes = require('./routes/services.js');
 
 app.listen(3000, () => { console.log('PS Project Running on port 3000!') }); 
